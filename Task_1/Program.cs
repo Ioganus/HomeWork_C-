@@ -1,0 +1,15 @@
+﻿int userNumber1 = new int();
+int userNumber2 = new int();
+int userNumber3 = new int();
+Console.Write("Enter first number: ");
+userNumber1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter second number: ");
+userNumber2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter third number: ");
+userNumber3 = Convert.ToInt32(Console.ReadLine());
+int max = userNumber1;
+if(userNumber1> max) max = userNumber1;
+if(userNumber2> max) max = userNumber2;
+if(userNumber3> max) max = userNumber3;
+Console.Write("Наибольшее число:");
+Console.Write(max);
